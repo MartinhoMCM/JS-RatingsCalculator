@@ -23,7 +23,7 @@ function collect_ratings(){
       ratings.average =ratings.sum/ratings.count;
   }
 
-  return ratings.average;
+  return ratings;
 }
 
 document.addEventListener("change", ()=>{
